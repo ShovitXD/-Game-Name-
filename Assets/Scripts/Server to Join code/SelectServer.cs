@@ -40,6 +40,8 @@ public class SelectServer : MonoBehaviourPunCallbacks
         {
             PhotonNetwork.ConnectToRegion(selectedRegion);
         }
+
+        Debug.Log("Server BTN Pressed");
     }
 
 
